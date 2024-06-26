@@ -22,6 +22,8 @@
 		651C8C802C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C7F2C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift */; };
 		651C8C8A2C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C892C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift */; };
 		651C8C8C2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */; };
+		658DD4AF2C2C99C60060F997 /* MarsTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DD4AE2C2C99C60060F997 /* MarsTime.swift */; };
+		658DD4B02C2C99C60060F997 /* MarsTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DD4AE2C2C99C60060F997 /* MarsTime.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,6 +99,7 @@
 		651C8C852C2C414200D38646 /* DarianCalendar Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarianCalendar Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		651C8C892C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		658DD4AE2C2C99C60060F997 /* MarsTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsTime.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +151,7 @@
 		651C8C3A2C2C413F00D38646 = {
 			isa = PBXGroup;
 			children = (
+				658DD4AE2C2C99C60060F997 /* MarsTime.swift */,
 				651C8C452C2C414000D38646 /* DarianCalendar */,
 				651C8C562C2C414100D38646 /* DarianCalendarTests */,
 				651C8C602C2C414100D38646 /* DarianCalendarUITests */,
@@ -465,6 +469,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658DD4AF2C2C99C60060F997 /* MarsTime.swift in Sources */,
 				651C8C492C2C414000D38646 /* ContentView.swift in Sources */,
 				651C8C472C2C414000D38646 /* DarianCalendarApp.swift in Sources */,
 			);
@@ -491,6 +496,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				658DD4B02C2C99C60060F997 /* MarsTime.swift in Sources */,
 				651C8C712C2C414100D38646 /* ContentView.swift in Sources */,
 				651C8C6F2C2C414100D38646 /* DarianCalendarApp.swift in Sources */,
 			);
@@ -745,6 +751,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -777,6 +787,10 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
