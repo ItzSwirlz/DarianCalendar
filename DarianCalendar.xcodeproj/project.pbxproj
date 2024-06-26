@@ -1,0 +1,1016 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		651C8C472C2C414000D38646 /* DarianCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C462C2C414000D38646 /* DarianCalendarApp.swift */; };
+		651C8C492C2C414000D38646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C482C2C414000D38646 /* ContentView.swift */; };
+		651C8C4B2C2C414100D38646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651C8C4A2C2C414100D38646 /* Assets.xcassets */; };
+		651C8C4E2C2C414100D38646 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651C8C4D2C2C414100D38646 /* Preview Assets.xcassets */; };
+		651C8C582C2C414100D38646 /* DarianCalendarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C572C2C414100D38646 /* DarianCalendarTests.swift */; };
+		651C8C622C2C414100D38646 /* DarianCalendarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C612C2C414100D38646 /* DarianCalendarUITests.swift */; };
+		651C8C642C2C414100D38646 /* DarianCalendarUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C632C2C414100D38646 /* DarianCalendarUITestsLaunchTests.swift */; };
+		651C8C6A2C2C414100D38646 /* DarianCalendar Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 651C8C692C2C414100D38646 /* DarianCalendar Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		651C8C6F2C2C414100D38646 /* DarianCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C6E2C2C414100D38646 /* DarianCalendarApp.swift */; };
+		651C8C712C2C414100D38646 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C702C2C414100D38646 /* ContentView.swift */; };
+		651C8C732C2C414200D38646 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651C8C722C2C414200D38646 /* Assets.xcassets */; };
+		651C8C762C2C414200D38646 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 651C8C752C2C414200D38646 /* Preview Assets.xcassets */; };
+		651C8C802C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C7F2C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift */; };
+		651C8C8A2C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C892C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift */; };
+		651C8C8C2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		651C8C542C2C414100D38646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C8C3B2C2C413F00D38646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C8C422C2C413F00D38646;
+			remoteInfo = DarianCalendar;
+		};
+		651C8C5E2C2C414100D38646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C8C3B2C2C413F00D38646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C8C422C2C413F00D38646;
+			remoteInfo = DarianCalendar;
+		};
+		651C8C6B2C2C414100D38646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C8C3B2C2C413F00D38646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C8C682C2C414100D38646;
+			remoteInfo = "DarianCalendar Watch App";
+		};
+		651C8C7C2C2C414200D38646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C8C3B2C2C413F00D38646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C8C682C2C414100D38646;
+			remoteInfo = "DarianCalendar Watch App";
+		};
+		651C8C862C2C414200D38646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 651C8C3B2C2C413F00D38646 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 651C8C682C2C414100D38646;
+			remoteInfo = "DarianCalendar Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		651C8C922C2C414200D38646 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				651C8C6A2C2C414100D38646 /* DarianCalendar Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		651C8C432C2C414000D38646 /* DarianCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarianCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C8C462C2C414000D38646 /* DarianCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendarApp.swift; sourceTree = "<group>"; };
+		651C8C482C2C414000D38646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		651C8C4A2C2C414100D38646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		651C8C4D2C2C414100D38646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		651C8C532C2C414100D38646 /* DarianCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarianCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C8C572C2C414100D38646 /* DarianCalendarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendarTests.swift; sourceTree = "<group>"; };
+		651C8C5D2C2C414100D38646 /* DarianCalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarianCalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C8C612C2C414100D38646 /* DarianCalendarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendarUITests.swift; sourceTree = "<group>"; };
+		651C8C632C2C414100D38646 /* DarianCalendarUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendarUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		651C8C692C2C414100D38646 /* DarianCalendar Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DarianCalendar Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C8C6E2C2C414100D38646 /* DarianCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendarApp.swift; sourceTree = "<group>"; };
+		651C8C702C2C414100D38646 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		651C8C722C2C414200D38646 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		651C8C752C2C414200D38646 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		651C8C7B2C2C414200D38646 /* DarianCalendar Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarianCalendar Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C8C7F2C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppTests.swift; sourceTree = "<group>"; };
+		651C8C852C2C414200D38646 /* DarianCalendar Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DarianCalendar Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		651C8C892C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		651C8C402C2C413F00D38646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C502C2C414100D38646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C5A2C2C414100D38646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C662C2C414100D38646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C782C2C414200D38646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C822C2C414200D38646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		651C8C3A2C2C413F00D38646 = {
+			isa = PBXGroup;
+			children = (
+				651C8C452C2C414000D38646 /* DarianCalendar */,
+				651C8C562C2C414100D38646 /* DarianCalendarTests */,
+				651C8C602C2C414100D38646 /* DarianCalendarUITests */,
+				651C8C6D2C2C414100D38646 /* DarianCalendar Watch App */,
+				651C8C7E2C2C414200D38646 /* DarianCalendar Watch AppTests */,
+				651C8C882C2C414200D38646 /* DarianCalendar Watch AppUITests */,
+				651C8C442C2C414000D38646 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		651C8C442C2C414000D38646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C432C2C414000D38646 /* DarianCalendar.app */,
+				651C8C532C2C414100D38646 /* DarianCalendarTests.xctest */,
+				651C8C5D2C2C414100D38646 /* DarianCalendarUITests.xctest */,
+				651C8C692C2C414100D38646 /* DarianCalendar Watch App.app */,
+				651C8C7B2C2C414200D38646 /* DarianCalendar Watch AppTests.xctest */,
+				651C8C852C2C414200D38646 /* DarianCalendar Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		651C8C452C2C414000D38646 /* DarianCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C462C2C414000D38646 /* DarianCalendarApp.swift */,
+				651C8C482C2C414000D38646 /* ContentView.swift */,
+				651C8C4A2C2C414100D38646 /* Assets.xcassets */,
+				651C8C4C2C2C414100D38646 /* Preview Content */,
+			);
+			path = DarianCalendar;
+			sourceTree = "<group>";
+		};
+		651C8C4C2C2C414100D38646 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C4D2C2C414100D38646 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		651C8C562C2C414100D38646 /* DarianCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C572C2C414100D38646 /* DarianCalendarTests.swift */,
+			);
+			path = DarianCalendarTests;
+			sourceTree = "<group>";
+		};
+		651C8C602C2C414100D38646 /* DarianCalendarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C612C2C414100D38646 /* DarianCalendarUITests.swift */,
+				651C8C632C2C414100D38646 /* DarianCalendarUITestsLaunchTests.swift */,
+			);
+			path = DarianCalendarUITests;
+			sourceTree = "<group>";
+		};
+		651C8C6D2C2C414100D38646 /* DarianCalendar Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C6E2C2C414100D38646 /* DarianCalendarApp.swift */,
+				651C8C702C2C414100D38646 /* ContentView.swift */,
+				651C8C722C2C414200D38646 /* Assets.xcassets */,
+				651C8C742C2C414200D38646 /* Preview Content */,
+			);
+			path = "DarianCalendar Watch App";
+			sourceTree = "<group>";
+		};
+		651C8C742C2C414200D38646 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C752C2C414200D38646 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		651C8C7E2C2C414200D38646 /* DarianCalendar Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C7F2C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift */,
+			);
+			path = "DarianCalendar Watch AppTests";
+			sourceTree = "<group>";
+		};
+		651C8C882C2C414200D38646 /* DarianCalendar Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				651C8C892C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift */,
+				651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "DarianCalendar Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		651C8C422C2C413F00D38646 /* DarianCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C8C932C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar" */;
+			buildPhases = (
+				651C8C3F2C2C413F00D38646 /* Sources */,
+				651C8C402C2C413F00D38646 /* Frameworks */,
+				651C8C412C2C413F00D38646 /* Resources */,
+				651C8C922C2C414200D38646 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C8C6C2C2C414100D38646 /* PBXTargetDependency */,
+			);
+			name = DarianCalendar;
+			productName = DarianCalendar;
+			productReference = 651C8C432C2C414000D38646 /* DarianCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		651C8C522C2C414100D38646 /* DarianCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C8C962C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendarTests" */;
+			buildPhases = (
+				651C8C4F2C2C414100D38646 /* Sources */,
+				651C8C502C2C414100D38646 /* Frameworks */,
+				651C8C512C2C414100D38646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C8C552C2C414100D38646 /* PBXTargetDependency */,
+			);
+			name = DarianCalendarTests;
+			productName = DarianCalendarTests;
+			productReference = 651C8C532C2C414100D38646 /* DarianCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		651C8C5C2C2C414100D38646 /* DarianCalendarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C8C992C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendarUITests" */;
+			buildPhases = (
+				651C8C592C2C414100D38646 /* Sources */,
+				651C8C5A2C2C414100D38646 /* Frameworks */,
+				651C8C5B2C2C414100D38646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C8C5F2C2C414100D38646 /* PBXTargetDependency */,
+			);
+			name = DarianCalendarUITests;
+			productName = DarianCalendarUITests;
+			productReference = 651C8C5D2C2C414100D38646 /* DarianCalendarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		651C8C682C2C414100D38646 /* DarianCalendar Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C8C8F2C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar Watch App" */;
+			buildPhases = (
+				651C8C652C2C414100D38646 /* Sources */,
+				651C8C662C2C414100D38646 /* Frameworks */,
+				651C8C672C2C414100D38646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DarianCalendar Watch App";
+			productName = "DarianCalendar Watch App";
+			productReference = 651C8C692C2C414100D38646 /* DarianCalendar Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		651C8C7A2C2C414200D38646 /* DarianCalendar Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C8C9C2C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar Watch AppTests" */;
+			buildPhases = (
+				651C8C772C2C414200D38646 /* Sources */,
+				651C8C782C2C414200D38646 /* Frameworks */,
+				651C8C792C2C414200D38646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C8C7D2C2C414200D38646 /* PBXTargetDependency */,
+			);
+			name = "DarianCalendar Watch AppTests";
+			productName = "DarianCalendar Watch AppTests";
+			productReference = 651C8C7B2C2C414200D38646 /* DarianCalendar Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		651C8C842C2C414200D38646 /* DarianCalendar Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 651C8C9F2C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar Watch AppUITests" */;
+			buildPhases = (
+				651C8C812C2C414200D38646 /* Sources */,
+				651C8C822C2C414200D38646 /* Frameworks */,
+				651C8C832C2C414200D38646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				651C8C872C2C414200D38646 /* PBXTargetDependency */,
+			);
+			name = "DarianCalendar Watch AppUITests";
+			productName = "DarianCalendar Watch AppUITests";
+			productReference = 651C8C852C2C414200D38646 /* DarianCalendar Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		651C8C3B2C2C413F00D38646 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					651C8C422C2C413F00D38646 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					651C8C522C2C414100D38646 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 651C8C422C2C413F00D38646;
+					};
+					651C8C5C2C2C414100D38646 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 651C8C422C2C413F00D38646;
+					};
+					651C8C682C2C414100D38646 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					651C8C7A2C2C414200D38646 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 651C8C682C2C414100D38646;
+					};
+					651C8C842C2C414200D38646 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 651C8C682C2C414100D38646;
+					};
+				};
+			};
+			buildConfigurationList = 651C8C3E2C2C413F00D38646 /* Build configuration list for PBXProject "DarianCalendar" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 651C8C3A2C2C413F00D38646;
+			productRefGroup = 651C8C442C2C414000D38646 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				651C8C422C2C413F00D38646 /* DarianCalendar */,
+				651C8C522C2C414100D38646 /* DarianCalendarTests */,
+				651C8C5C2C2C414100D38646 /* DarianCalendarUITests */,
+				651C8C682C2C414100D38646 /* DarianCalendar Watch App */,
+				651C8C7A2C2C414200D38646 /* DarianCalendar Watch AppTests */,
+				651C8C842C2C414200D38646 /* DarianCalendar Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		651C8C412C2C413F00D38646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C4E2C2C414100D38646 /* Preview Assets.xcassets in Resources */,
+				651C8C4B2C2C414100D38646 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C512C2C414100D38646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C5B2C2C414100D38646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C672C2C414100D38646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C762C2C414200D38646 /* Preview Assets.xcassets in Resources */,
+				651C8C732C2C414200D38646 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C792C2C414200D38646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C832C2C414200D38646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		651C8C3F2C2C413F00D38646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C492C2C414000D38646 /* ContentView.swift in Sources */,
+				651C8C472C2C414000D38646 /* DarianCalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C4F2C2C414100D38646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C582C2C414100D38646 /* DarianCalendarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C592C2C414100D38646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C622C2C414100D38646 /* DarianCalendarUITests.swift in Sources */,
+				651C8C642C2C414100D38646 /* DarianCalendarUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C652C2C414100D38646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C712C2C414100D38646 /* ContentView.swift in Sources */,
+				651C8C6F2C2C414100D38646 /* DarianCalendarApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C772C2C414200D38646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C802C2C414200D38646 /* DarianCalendar_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		651C8C812C2C414200D38646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				651C8C8A2C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift in Sources */,
+				651C8C8C2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		651C8C552C2C414100D38646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C8C422C2C413F00D38646 /* DarianCalendar */;
+			targetProxy = 651C8C542C2C414100D38646 /* PBXContainerItemProxy */;
+		};
+		651C8C5F2C2C414100D38646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C8C422C2C413F00D38646 /* DarianCalendar */;
+			targetProxy = 651C8C5E2C2C414100D38646 /* PBXContainerItemProxy */;
+		};
+		651C8C6C2C2C414100D38646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C8C682C2C414100D38646 /* DarianCalendar Watch App */;
+			targetProxy = 651C8C6B2C2C414100D38646 /* PBXContainerItemProxy */;
+		};
+		651C8C7D2C2C414200D38646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C8C682C2C414100D38646 /* DarianCalendar Watch App */;
+			targetProxy = 651C8C7C2C2C414200D38646 /* PBXContainerItemProxy */;
+		};
+		651C8C872C2C414200D38646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 651C8C682C2C414100D38646 /* DarianCalendar Watch App */;
+			targetProxy = 651C8C862C2C414200D38646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		651C8C8D2C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		651C8C8E2C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		651C8C902C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarianCalendar Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DarianCalendar;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.github.ItzSwirlz.DarianCalendar;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		651C8C912C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarianCalendar Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DarianCalendar;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.github.ItzSwirlz.DarianCalendar;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendar.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		651C8C942C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarianCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DarianCalendar;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		651C8C952C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DarianCalendar/Preview Content\"";
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DarianCalendar;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651C8C972C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarianCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarianCalendar";
+			};
+			name = Debug;
+		};
+		651C8C982C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarianCalendar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarianCalendar";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651C8C9A2C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarianCalendar;
+			};
+			name = Debug;
+		};
+		651C8C9B2C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.github.ItzSwirlz.DarianCalendarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DarianCalendar;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		651C8C9D2C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ItzSwirlz.DarianCalendar-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarianCalendar Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarianCalendar Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		651C8C9E2C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ItzSwirlz.DarianCalendar-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DarianCalendar Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DarianCalendar Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		651C8CA02C2C414200D38646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ItzSwirlz.DarianCalendar-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DarianCalendar Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		651C8CA12C2C414200D38646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6K8U98KFW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.ItzSwirlz.DarianCalendar-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "DarianCalendar Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		651C8C3E2C2C413F00D38646 /* Build configuration list for PBXProject "DarianCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8C8D2C2C414200D38646 /* Debug */,
+				651C8C8E2C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C8C8F2C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8C902C2C414200D38646 /* Debug */,
+				651C8C912C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C8C932C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8C942C2C414200D38646 /* Debug */,
+				651C8C952C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C8C962C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8C972C2C414200D38646 /* Debug */,
+				651C8C982C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C8C992C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8C9A2C2C414200D38646 /* Debug */,
+				651C8C9B2C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C8C9C2C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8C9D2C2C414200D38646 /* Debug */,
+				651C8C9E2C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		651C8C9F2C2C414200D38646 /* Build configuration list for PBXNativeTarget "DarianCalendar Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				651C8CA02C2C414200D38646 /* Debug */,
+				651C8CA12C2C414200D38646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 651C8C3B2C2C413F00D38646 /* Project object */;
+}
