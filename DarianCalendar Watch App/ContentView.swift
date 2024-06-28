@@ -9,7 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
+        `TimelineView`(AnimationTimelineSchedule()) { context in
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
@@ -18,7 +18,6 @@ struct ContentView: View {
             Text(String(mtc.minutes))
             Text(String(mtc.seconds))
         }
-        .padding()
     }
 }
 
