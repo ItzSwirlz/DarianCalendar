@@ -13,7 +13,8 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text(Equations().formatted())
+            let time = MTC()
+            Text(time.formatted())
         }
         .padding()
     }
