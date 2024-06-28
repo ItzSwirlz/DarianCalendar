@@ -12,6 +12,12 @@
 
 import Foundation
 
+public struct MarsTime {
+    public var hours: Int
+    public var minutes: Int
+    public var seconds: Int
+}
+
 // im lazy
 // https://www.hackingwithswift.com/example-code/language/how-to-convert-radians-to-degrees
 func rad2deg(_ number: Double) -> Double {
@@ -37,6 +43,10 @@ func MSD() -> Double {
     return ((TimeOffsetFromJ2K - 4.5) / 1.0274912517) + 44796.0 - 0.00096
 }
 
-func MTC() -> Double {
-    return (24.0 * MSD()).truncatingRemainder(dividingBy: 24.0)
+func MTC() -> MarsTime {
+    let mtc = (24.0 * MSD()).truncatingRemainder(dividingBy: 24.0)
+    let hours = mtc.rounded(.down)
+    let mins = mtc.truncatingRemainder(dividingBy: 1.0) * 60
+    let secs = mins.truncatingRemainder(dividingBy: 1.0) * 60
+    return MarsTime(hours: Int(hours), minutes: Int(mins), seconds: Int(secs))
 }

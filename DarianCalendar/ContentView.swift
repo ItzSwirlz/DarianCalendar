@@ -13,7 +13,8 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text(MSD().formatted())
+            var mtc = MTC()
+            Text(String(String(mtc.hours) + ":" + String(mtc.minutes) + ":" + String(mtc.seconds)))
         }
         .padding()
     }
