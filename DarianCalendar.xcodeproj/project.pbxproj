@@ -24,6 +24,8 @@
 		651C8C8C2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */; };
 		658DD4AF2C2C99C60060F997 /* MarsTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DD4AE2C2C99C60060F997 /* MarsTime.swift */; };
 		658DD4B02C2C99C60060F997 /* MarsTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 658DD4AE2C2C99C60060F997 /* MarsTime.swift */; };
+		65B00A8A2C2F7D43002C1677 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B00A892C2F7D42002C1677 /* Calendar.swift */; };
+		65B00A8B2C2F7D43002C1677 /* Calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B00A892C2F7D42002C1677 /* Calendar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -100,6 +102,7 @@
 		651C8C892C2C414200D38646 /* DarianCalendar_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		651C8C8B2C2C414200D38646 /* DarianCalendar_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarianCalendar_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		658DD4AE2C2C99C60060F997 /* MarsTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsTime.swift; sourceTree = "<group>"; };
+		65B00A892C2F7D42002C1677 /* Calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calendar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +154,7 @@
 		651C8C3A2C2C413F00D38646 = {
 			isa = PBXGroup;
 			children = (
+				65B00A892C2F7D42002C1677 /* Calendar.swift */,
 				658DD4AE2C2C99C60060F997 /* MarsTime.swift */,
 				651C8C452C2C414000D38646 /* DarianCalendar */,
 				651C8C562C2C414100D38646 /* DarianCalendarTests */,
@@ -472,6 +476,7 @@
 				658DD4AF2C2C99C60060F997 /* MarsTime.swift in Sources */,
 				651C8C492C2C414000D38646 /* ContentView.swift in Sources */,
 				651C8C472C2C414000D38646 /* DarianCalendarApp.swift in Sources */,
+				65B00A8B2C2F7D43002C1677 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -499,6 +504,7 @@
 				658DD4B02C2C99C60060F997 /* MarsTime.swift in Sources */,
 				651C8C712C2C414100D38646 /* ContentView.swift in Sources */,
 				651C8C6F2C2C414100D38646 /* DarianCalendarApp.swift in Sources */,
+				65B00A8A2C2F7D43002C1677 /* Calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

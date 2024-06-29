@@ -18,11 +18,12 @@ struct ContentView: View {
             Text(String(mtc.minutes))
             Text(String(mtc.seconds)) // FIXME: Seconds 0-9: have leading 0
 
-            Text(String(format: "Year: %.f", ((MSD() / 668.59) + 140))) // FIXME: handle years properly
-
-            // FIXME: These are probably wrong. Some months have 28 days, some have 27. Probably best to find a better way to handle this. Also, if the MSD's number is divisible by 24 it will screw everything up... so figure this all out.
-            Text(String(format: "Month No. (Wrong): %.f", (((MSD().truncatingRemainder(dividingBy: 24.0))))))
-            Text(String(format: "Sol No. (Wrong): %.f", (MSD().truncatingRemainder(dividingBy: 27.8579))))
+            let cal = Calendar(msd: MSD())
+            Text(String(format: "MSD: %f", MSD())) // for debugging
+            Text(String(format: "Year: %d", cal.year))
+            Text(String(cal.month.formatted)) // this is worng
+            Text(String(cal.solOfMonth)) // also wrong
+            Text(String(cal.currentSolName.formatted))
 
         }
     }
