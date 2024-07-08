@@ -14,12 +14,12 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             let mtc = MTC()
-            Text(String(mtc.hours))
-            Text(String(mtc.minutes))
-            Text(String(mtc.seconds)) // FIXME: Seconds 0-9: have leading 0
+            Text(String(format: "%02d", mtc.hours))
+            Text(String(format: "%02d", mtc.minutes))
+            Text(String(format: "%02d", mtc.seconds))
 
             let cal = Calendar(msd: MSD())
-            Text(String(format: "MSD: %f", MSD())) // for debugging
+            Text(String(format: "Sol Num: %d", cal.solNum)) // for debugging
             Text(String(format: "Year: %d", cal.year))
             Text(String(cal.month.formatted)) // this is worng
             Text(String(cal.solOfMonth)) // also wrong

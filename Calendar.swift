@@ -5,6 +5,8 @@
 //  Created by Joshua Peisach on 6/28/24.
 //
 
+import Foundation
+
 public enum Month {
     case Sagittarius, Dhanus, Capricornus, Makara, Aquarius, Khumba, Pisces, Mina, Aries, Mesha, Taurus, Rishabha, Gemini, Mithuna, Cancer, Karka, Leo, Simha,
     Virgo, Kanya, Libra, Tula, Scorpius, Vrishika
@@ -37,10 +39,8 @@ private func IsLeapYear(year: Int) -> Bool {
 }
 
 private func GetMonth(leapYear: Bool, msd: Int) -> Month {
-    var temp = msd % 668
-    if(leapYear == true) {
-        temp = msd % 669
-    }
+    var temp = msd
+
 
     // TODO: someone teach me lookup tables
     if(0 <= temp && temp <= 28) {
@@ -94,13 +94,11 @@ private func GetMonth(leapYear: Bool, msd: Int) -> Month {
     }
 }
 
+// FIXME: This is wrong
 private func GetSolOfMonth(leapYear: Bool, month: Month, msd: Int) -> Int {
-    var temp = msd % 668
-    if(leapYear == true) {
-        temp = msd % 669
-    }
+    var temp = msd
 
-    if(month == Month.Khumba || month == Month.Rishabha || month == Month.Simha || (leapYear == true) && month == Month.Vrishika) {
+    if(month == Month.Khumba || month == Month.Rishabha || month == Month.Simha || ((leapYear == true) && month == Month.Vrishika)) {
         // 27-sol months
         temp %= 27
     } else {
@@ -124,25 +122,55 @@ private func GetSolName(leapYear: Bool, solMonth: Int) -> Sol {
         return Sol.Jovis
     case 5:
         return Sol.Veneris
-    default:
+    case 6:
         return Sol.Saturni
+    default:
+        return Sol.Solis
     }
 }
 
 
 struct Calendar {
+    public var solNum: Int
     public var year: Int
     public var month: Month
     public var solOfMonth: Int
     public var currentSolName: Sol
     
     init(msd: Double) {
-        // TODO: Depending on leap years there may be edge case conditions where this is wrong.
-        // TODO: What is the epoch? For now, offset by 140
-        year = 140 + Int(msd / 668.5907)
+        // JD calculation from AI
+        let date = Date()
+        let calendar = Foundation.Calendar(identifier: .gregorian)
+        let y = calendar.component(.year, from: date)
+        let m = calendar.component(.month, from: date)
+        let d = calendar.component(.day, from: date)
+        let hour = calendar.component(.hour, from: date)
+        let minute = calendar.component(.minute, from: date)
+        let second = calendar.component(.second, from: date)
+            
+        var Y = y
+        var M = m
+        if M <= 2 {
+            Y -= 1
+            M += 12
+        }
+    
+        let A = Y / 100
+        let B = 2 - A + A / 4
+        let JD0 = Double(Int(365.25 * Double(Y + 4716))) + Double(Int(30.6001 * Double(M + 1))) + Double(d) + Double(B) - 1524.5
+        let fractionOfDay = (Double(hour) + Double(minute) / 60.0 + Double(second) / 3600.0) / 24.0
+        let JD = JD0 + fractionOfDay
+        // End of AI code
+
+        // julian sol
+        let JS = (JD - 2308806.30493) / 1.027491251
+        let sol = JS.truncatingRemainder(dividingBy: 668.5907).rounded(.up) // FIXME: check if its safe to round up or not
+        solNum = Int(sol)
+        year = Int(JS / 668.5907)
+    
         let isLeapYear = IsLeapYear(year: year)
-        month = GetMonth(leapYear: isLeapYear, msd: Int(msd)) // TODO: This is wrong. From the number of days that have passed how do we get the nth day of the year?
-        solOfMonth = GetSolOfMonth(leapYear: isLeapYear, month: month, msd: Int(msd))
+        month = GetMonth(leapYear: isLeapYear, msd: solNum)
+        solOfMonth = GetSolOfMonth(leapYear: isLeapYear, month: month, msd: solNum)
         currentSolName = GetSolName(leapYear: isLeapYear, solMonth: solOfMonth)
     }
 }
